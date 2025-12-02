@@ -1,1 +1,59 @@
 
+[
+  {
+    "id": "layer1_physical_t1561",
+    "layer": 1,
+    "name": "Tampered router port",
+    "mitre": "T1561",
+    "analogy": "Cut Fence",
+    "description": "Physical tampering with network equipment to create a backdoor."
+  },
+  {
+    "id": "layer2_datalink_t1557",
+    "layer": 2,
+    "name": "ARP Spoofing",
+    "mitre": "T1557",
+    "analogy": "Fake ID Card Issued",
+    "description": "Poison ARP cache, intercept traffic on link-layer."
+  },
+  {
+    "id": "layer3_network_t1595",
+    "layer": 3,
+    "name": "IP Spoofing / Route Manipulation",
+    "mitre": "T1595",
+    "analogy": "False Map of Corridors",
+    "description": "Manipulating routing so traffic is sent to attacker."
+  },
+  {
+    "id": "layer4_transport_t1499",
+    "layer": 4,
+    "name": "SYN Flood",
+    "mitre": "T1499",
+    "analogy": "Gate jammed by crowd",
+    "description": "Transport-level DoS by exhausting connection queue."
+  },
+  {
+    "id": "layer5_session_t1078",
+    "layer": 5,
+    "name": "Session Hijacking",
+    "mitre": "T1078",
+    "analogy": "Impersonation of guard",
+    "description": "Steal/reuse session tokens to impersonate legitimate user."
+  },
+  {
+    "id": "layer6_presentation_t1132",
+    "layer": 6,
+    "name": "Malicious Encoding",
+    "mitre": "T1132",
+    "analogy": "Hidden messages in documents",
+    "description": "Embedding payloads inside encoded/serialized data."
+  },
+  {
+    "id": "layer7_application_t1190",
+    "layer": 7,
+    "name": "SQL Injection",
+    "mitre": "T1190",
+    "analogy": "Smuggling contraband through paperwork",
+    "description": "Application-level injection allowing data exfiltration or modification."
+  }
+]
