@@ -19,3 +19,4 @@ See .github/workflows/pages-deploy.yml for CI deploy.
 - Learner Mode: guided simulation + basic evaluation saved to localStorage
 - Operator Mode: detailed logs and technical metrics
 
+ 
