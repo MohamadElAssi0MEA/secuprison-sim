@@ -18,7 +18,7 @@ jobs:
       - name: Install and build
         working-directory: ./frontend
         run: |
-          npm ci
+          npm install
           npm run build
 
       - name: Deploy to gh-pages
